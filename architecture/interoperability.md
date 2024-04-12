@@ -1,0 +1,11 @@
+# Interoperability
+
+Rollups built on top of Asula have native interoperability between them via IBC. No matter what trust assumptions a rollup is built under, it can achieve interop with any other rollup on Asula through an enshrined bridge with the Asula L1.
+
+#### **IBC**
+
+IBC is _a protocol to handle authentication and transport of data between two_ [_blockchains_](https://tutorials.cosmos.network/academy/3-ibc/1-what-is-ibc.html)_._
+
+Asula will have native integration with IBC, thus allowing the Asula L1 to communicate with any IBC-enabled chain. IBC will also be used as the communication standard between the Asula L1 and all rollups built on top of it. Asula rollups can send packets to the Asula L1 using IBC; the verification process on the L1 can involve either fraud proofs or zk proofs instead of using a light client proof as is the case between two L1s (which is effectively a cryptoeconomic proof). This makes the Asula L1 the hub of trust between the rollups and reduces technical complexity. The total number of possible connections if all rollups were to communicate p2p would be $O(n^2)$, but with a hub in between it would reduce to $O(n)$. In a p2p setting, bridges would likely be 3rd-party service providers that enable asset flow between rollups and have heterogenous security properties and trust assumptions. By baking interoperability into Asula’s design, we reduce trust assumptions as well as standardize security practices to create a safer ecosystem.
+
+Any interop between Asula rollups to other IBC-enabled chains will go through Asula’s L1 meaning rollups don’t have to run any IBC relayers and thus destination light clients, making Asula the central hub for IBC communication across the Bitcoin ecosystem. This allows for integration with the broader Cosmos ecosystem including Celestia, Noble and DYDX. This is especially important since if the Asula L1 onboards a set of assets, all Asula rollups have access to those assets. For example, USDC and USDT are integral to the liquidity of any ecosystem and having it available via the Asula L1 would make any rollup immediately more liquid. **Note:** There is the added benefit of Circle and Tether having to only do security analysis and integrations on one chain as opposed to having to do them for many many rollups.

@@ -1,12 +1,12 @@
 # Introduction
 
-Asula is a novel Proof of Stake, Layer-1 blockchain optimized to provide verification for Rollups, backed by the cryptoeconomic security of Bitcoin. Asula provides a shared settlement and verification layer to verify a rapidly expanding ecosystem of rollups on Bitcoin.
+Asula is Bitcoin’s shared settlement layer.
 
-By providing a shared layer for settlement on Bitcoin, we accelerate the utility of Bitcoin as an asset beyond its primary use as a store of value today and unlock more expressive applications and usecases.&#x20;
+The Asula network is powering the next wave of Bitcoin scaling, enabling builders to inherit Bitcoin security and liquidity while leveraging best-in-class scaling technology from across the industry. Asula provides seamless interoperability between Asula rollups using standardized verification for both optimistic and ZK rollups. By introducing native rollup state verification, Asula ushers in bleeding-edge innovation to the largest crypto asset in the world, Bitcoin.
 
-## What is a settlement layer?&#x20;
+The Asula L1 is secured by staked BTC. When users stake their BTC to Asula, they can mint aBTC, a liquid staking token usable across the Asula ecosystem. The BTC asset allows users to earn a yield on their BTC without compromising capital efficiency while also providing a valuable resource for rollup builders to bootstrap liquidity.
+
+By combining shared settlement with its unique liquidity hub, the Asula network provides a path for a flourishing Bitcoin ecosystem.
 
 
-
-It is a layer that settles all things.
 

@@ -1,3 +1,3 @@
 # Official Links
 
-* @asulnet on [x.com](http://x.com/)
+* [@asulanet](https://twitter.com/asulanet) on [x.com](http://x.com/)
